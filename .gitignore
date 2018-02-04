@@ -1,0 +1,6 @@
+node_modules
+build
+.env
+src/**/*.js
+!src/db/migrations/*.js
+!src/db/seeders/*.js

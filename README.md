@@ -1,0 +1,1 @@
+# sequelize-with-typescript-example

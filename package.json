@@ -1,0 +1,41 @@
+{
+  "name": "sequelize-with-typescript-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js",
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "clean": "rm -rf build"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.6",
+    "ts-jest": "^21.2.4",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "@types/node": "^8.5.2",
+    "@types/sequelize": "^4.27.2",
+    "dotenv": "^4.0.0",
+    "moment": "^2.20.0",
+    "pg": "^6.4.2",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.31.2",
+    "sequelize-cli": "^3.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichalZalecki/sequelize-with-typescript-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichalZalecki/sequelize-with-typescript-example/issues"
+  },
+  "homepage": "https://github.com/MichalZalecki/sequelize-with-typescript-example#readme"
+}

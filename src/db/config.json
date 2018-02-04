@@ -1,0 +1,16 @@
+{
+  "development": {
+    "url": "postgres://postgres:postgres@localhost:5432/example-development",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "test": {
+    "url": "postgres://postgres:postgres@localhost:5432/example-testing",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "production": {
+    "dialect": "postgres",
+    "operatorsAliases": false
+  }
+}
